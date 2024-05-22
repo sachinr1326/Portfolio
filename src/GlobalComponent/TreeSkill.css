@@ -1,0 +1,94 @@
+.sachin-skill{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+
+}
+.skill-head{
+    font: normal normal 600 25px / 25px var(--font-family);
+    font-size: clamp(15px, 4vw, 25px);
+    line-height: clamp(15px, 4vw, 25px);
+    color: var(--body_color);
+    border: 1px solid var(--text_color);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: var(--text_color);
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    text-transform: capitalize;
+min-height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.skill-head::after{
+    background-color: var(--text_color);
+    bottom: 0;
+    content: " ";
+    right: -10px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    transform: rotate(90deg);
+    width: 3px;
+    height: 200%;
+    z-index: -1;
+}
+.skill-skills{
+    flex-grow: 1;
+    flex-basis: 700px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    border: 3px solid var(--text_color);
+    background-color: var(--body_background);
+    width: 100%;
+    gap: 10px;
+    border-radius: 0.5rem;
+    padding:17px;
+min-height: 100px;
+z-index: 2;
+
+}
+.skill-item{
+    flex-grow: 1;
+    flex-basis: 250px;
+    font: normal normal 400 20px / 20px var(--font-family);
+    font-size: clamp(10px, 4vw, 20px);
+    line-height: clamp(10px, 4vw, 20px);
+    color: var(--body_color);
+    border: 1px solid var(--text_color);
+    border-radius: 0.5rem;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    /* margin: auto; */
+    background-color: rgba(var(--rgb_text_color),0.3);
+    cursor: pointer;
+min-height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+.skill-item:hover{
+    background-color: var(--body_background);
+    color: var(--text_color);
+}
+@media screen and (max-width:900px) {
+    .skill-head::after{
+        right: 0;
+        left: 0;
+        bottom: -47px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        transform: rotate(0);
+    }
+}

@@ -1,0 +1,107 @@
+.font-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .font-selector .font-button0{
+    font: normal normal 600 15px/15px "Spline Sans", sans-serif;
+    color: var(--body_color);
+
+ 
+  }
+ .font-selector .font-button1{
+   font: normal normal 600 15px/15px "Pacifico", cursive;
+   color: var(--body_color);
+
+ }
+ .font-selector .font-button2{
+    font: normal normal 600 15px/15px "Agbalumo", system-ui;
+    color: var(--body_color);
+ 
+  }
+  .font-selector .font-button3{
+    font: normal normal 600 15px/15px "Neuton", serif;
+    color: var(--body_color);
+ 
+  }
+  .font-selector .font-button4{
+    font: normal normal 600 15px/15px "Danfo", serif;
+    color: var(--body_color);
+ 
+  }
+  .font-selector .font-button5{
+    font: normal normal 600 15px/15px "Freeman", sans-serif;
+    color: var(--body_color);
+ 
+  }
+  .font-selector .font-button6{
+    font: normal normal 600 15px/15px "Lobster", sans-serif;
+    color: var(--body_color);
+ 
+  }
+  .font-selector .font-button7{
+    font: normal normal 600 15px/15px "Karla", sans-serif;
+    color: var(--body_color);
+ 
+  }
+  #popover-language-bottom-lang .bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow::after, .bs-popover-bottom>.popover-arrow::after,.bs-popover-bottom .popover-header::before  {
+    border-bottom-color: var(--text_color);
+    
+    }
+    #popover-language-bottom-lang .header{
+      background-color: var(--text_color);
+    
+    }
+    #popover-language-bottom-lang {
+      background-color: var(--body_background);
+    
+    color: var(--body_color);
+    border: 1px solid var(--text_color);
+    }
+  .font-selector .font-btn.active {
+    border: 3px solid greenyellow;
+  }
+  .font-selector .font-btn {
+    position: relative;
+    background: none;
+    border: none;
+    padding: 2px;
+    width: 100%;
+  }
+  .font-selector .font-btn:hover {
+   background-color: var(--text_color);
+   color: var(--body_color);
+   
+}
+  .font-selector .font-btn.active .active-font {
+    visibility: visible;
+  }
+  .font-selector .font-btn .active-font {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+    visibility: hidden;
+  }
+  .font-selector .font-btn .active-font i {
+    color: greenyellow;
+    font-size: clamp(12px, 4vw, 25px);
+  }
+  
+  .font-btn-trigger {
+    border:none;
+    width: fit-content;
+    background-color: transparent;
+  }
+  
+  .font-btn-trigger i {
+    color: var(--text_color);
+  }
+  

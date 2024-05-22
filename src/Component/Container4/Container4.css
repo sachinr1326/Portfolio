@@ -1,0 +1,117 @@
+.ed-internship-main-container-6 .ed-internship-22-common-container {
+    width: min(100% - 15px, 1224px);
+    margin-inline: auto;
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: var(--body_background);
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 .section-1 .title {
+    font: normal normal 700 35px / 35px var(--font-family);
+    font-size: clamp(20px, 4vw, 35px);
+    line-height: clamp(20px, 4vw, 35px);
+    color: var(--body_color);
+    text-align: center;
+
+    margin-bottom: 5%;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  .ed-internship-main-container-6 .ed-internship-22-container-6 .section-1 .title::before {
+    top: -15%;
+    content: " ";
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 3vw solid transparent;
+  border-right: 3vw solid transparent;
+  border-top: 4vw solid var(--text_color);
+    z-index: -1;
+  
+  }
+  @media screen and (max-width:767px) {
+    .ed-internship-main-container-6 .ed-internship-22-container-6 .section-1  .title::before {
+      top: -10%;
+      border-left: 6vw solid transparent;
+      border-right: 6vw solid transparent;
+      border-top: 8vw solid var(--text_color);
+  
+    
+    }
+  }
+  
+.ed-internship-main-container-6 .ed-internship-22-container-6 swiper-container {
+    width: 100%;
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 swiper-container::part(button-next) {
+    border-radius: .5rem;
+    color: var(--text_color);
+    height: 13px;
+    left: 40px;
+    top: 95%;
+    width: 15px;
+    z-index: 98;
+    border: 1px solid var(--text_color);
+    background-color:rgba(var(--rgb_text_color), 0.2);
+    padding: 9px;
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 swiper-container::part(button-prev) {
+    color: var(--text_color);
+    height: 13px;
+    left: 0px;
+    top: 95%;
+    width: 13px;
+    z-index: 100;
+    border-radius: .5rem;
+
+    border: 1px solid var(--text_color);
+    background-color:rgba(var(--rgb_text_color), 0.2);
+    padding: 9px;
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 swiper-container::part(container) {
+    /* / overflow: visible; / */
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 swiper-slide:nth-child(n) {
+    /* / width: 330px !important; / */
+    /* / margin-right: 20px; / */
+    /* / padding-bottom: 60px; / */
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 swiper-container::part(pagination) {
+    /* / margin-top: 20px; / */
+    position: relative;
+    top: 0;
+    /* / z-index: 5; / */
+
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 swiper-container::part(bullet) {
+    background: var(--text_color);
+    opacity: 1;
+}
+
+.ed-internship-main-container-6 .ed-internship-22-container-6 swiper-container::part(bullet-active) {
+    background: var(--brand-color);
+    box-shadow: 0px 0px 10px 0px var(--text_color);
+}

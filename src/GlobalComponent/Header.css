@@ -1,0 +1,41 @@
+
+.header .nav-link{
+    color: var(--body_color);
+}
+.header .navbar{
+    background-color: var(--body_background);
+    border-bottom: 1px solid var(--text_color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.header .navbar .navbar-brand{
+    color: var(--text_color);
+    font: normal normal 600 25px/25px var(--font-family);
+    font-size: clamp(16px, 4vw, 25px);
+     line-height: clamp(16px, 4vw, 25px);
+}
+.header .navbar-nav .nav-link{
+    color: var(--text_color);
+   font: normal normal 400 20px/20px var(--font-family);
+   font-size: clamp(15px, 4vw, 20px);
+    line-height: clamp(15px, 4vw, 20px);
+border-radius: 0.5rem;
+}
+.header .navbar-nav .nav-link:hover{
+    background-color: var(--body_color);
+}
+.header .navbar-nav .nav-link.active{
+background-color: var(--text_color);
+color: var(--body_color);
+
+
+
+}
+.header .menu-btn-sachin{
+    border-color: var(--text_color);
+}
+.header .menu-btn-sachin i{
+color: var(--text_color);
+}

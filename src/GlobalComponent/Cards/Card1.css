@@ -1,0 +1,38 @@
+.sachin-card-1 {
+    border:1px solid var(--text_color);
+    border-radius: 1rem;
+    text-align: center;
+    transition: 0.4s all ease-in-out;
+    padding: 10%; 
+    background-color: var(--body_background);
+}
+.sachin-card-1.active .card__title-1,.sachin-card-1.active .card__description-1{
+    color: var(--body_color);
+}
+.sachin-card-1.active {
+    background-color: var(--text_color);
+}
+
+.sachin-card-1 .card__title-1 {
+    font: normal normal 600 25px / 20px var(--font-family);
+    font-size: clamp(15px, 4vw, 25px);
+    line-height: clamp(15px, 4vw, 20px);
+    color: var(--text_color);
+    text-align: center;
+    transition: 0.4s all ease-in-out;
+
+  }
+.sachin-card-1 .card__description-1 {
+    font: normal normal 400 17px / 20px var(--font-family);
+    font-size: clamp(10px, 4vw, 17px);
+    line-height: clamp(10px, 4vw, 20px);
+    color: var(--text_color);
+    /* margin-bottom: 10px; */
+    text-align: start;
+    transition: 0.4s all ease-in-out;
+
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; */
+    
+  }    

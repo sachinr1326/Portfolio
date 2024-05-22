@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Danfo&family=Freeman&family=Karla:ital,wght@0,200..800;1,200..800&family=Lobster&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Pacifico&family=Spline+Sans:wght@300..700&display=swap');
+
+:root{
+  --body_background:#000000;
+  --body_color:#F2F2F2;
+  --text_color:#E1362C;
+  --section_color:#121212;
+  --section_color2:#E1362C;
+  --font-family: "Pacifico", cursive;
+  --rgb_text_color:rgb(255, 0, 0);
+  --custom-switch-bg-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23000000'/%3e%3c/svg%3e");
+    --custom-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ursive'/%3e%3c/svg%3e");
+}
+[data-font="font0"]{
+  --font-family: "Spline Sans", sans-serif;
+}
+[data-font="font1"]{
+  --font-family: "Pacifico", cursive;
+}
+[data-font="font2"]{
+  --font-family: "Agbalumo", system-ui;
+
+}
+[data-font="font3"]{
+  --font-family: "Neuton", serif;
+
+}
+[data-font="font4"]{
+  --font-family: "Danfo", serif;
+
+}
+[data-font="font5"]{
+  --font-family: "Freeman", sans-serif;
+
+}
+[data-font="font6"]{
+  --font-family: "Lobster", sans-serif;
+}
+[data-font="font7"]{
+  --font-family: "Karla", sans-serif;
+}
+[data-theme="theme1"]{
+  --body_background:#000000;
+  --body_color:#F2F2F2;
+  --text_color:#FF0000;
+  --section_color:#121212;
+  --section_color2:#FF0000;
+  --rgb_text_color:255, 0, 0;
+  --custom-switch-bg-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23121212'/%3e%3c/svg%3e");
+    --custom-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23FF0000'/%3e%3c/svg%3e");
+}
+[data-theme="theme2"]{
+  --body_background:#000000;
+  --body_color:#F2F2F2;
+  --text_color:#00FFEF;
+  --section_color:#121212;
+  --section_color2:#00FFEF;
+  --rgb_text_color:0, 255, 239;
+  --custom-switch-bg-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23000000'/%3e%3c/svg%3e");
+    --custom-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2300FFEF'/%3e%3c/svg%3e");
+}
+[data-theme="theme3"]{
+  --body_background:#FFFFFF;
+  --body_color:#000000;
+  --text_color:#564c41;
+  --section_color:#121212;
+  --section_color2:#564c41;
+  --rgb_text_color:18, 18, 18;
+  --custom-switch-bg-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23FFFFFF'/%3e%3c/svg%3e");
+    --custom-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23564c41'/%3e%3c/svg%3e");
+}
+[data-theme="theme4"]{
+  --body_background:#000000;
+  --body_color:#FFFFFF;
+  --text_color:#FFEA00;
+  --section_color:#121212;
+  --section_color2:#FFEA00;
+  --rgb_text_color:255, 234, 0;
+  --custom-switch-bg-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23000000'/%3e%3c/svg%3e");
+    --custom-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23FFEA00'/%3e%3c/svg%3e");
+}
+[data-theme="theme5"]{
+  --body_background:#11001c;
+  --body_color:#FFFFFF;
+  --text_color:#8d0680;
+  --section_color:#290025;
+  --section_color2:#720367;
+  --rgb_text_color:141, 6, 128;
+  --custom-switch-bg-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2311001c'/%3e%3c/svg%3e");
+    --custom-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23720367'/%3e%3c/svg%3e");
+}
+body{
+  background-color: var(--body_background) !important;
+}

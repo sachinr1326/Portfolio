@@ -1,0 +1,294 @@
+
+.plx-card {
+  transition: all 600ms ease;
+  max-width: 1100px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin: 30px 0;
+  filter: drop-shadow(0 2px 1rem #112);
+  border-radius: 4px;
+  width: 53%;
+margin-left: auto;
+}
+
+
+.plx-card.left {
+    flex-direction: row-reverse;
+    width: 53%;
+    margin-right: auto;
+    margin-left: 0;
+}
+@media screen and (min-width: 700px) {
+  .plx-card.gold {
+    min-height: 280px;
+  }
+ 
+
+}
+@media screen and (max-width: 700px) {
+  .plx-card {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    border-radius: 2px;
+    margin: 25px 15px;
+  }
+  .plx-card.left {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: 25px 15px;
+
+}
+.plx-card {
+    overflow: visible ;
+  }
+  .sachin-edcard-1{
+    margin-top: 130px;
+}
+}
+
+.pxc-avatar {
+  transition: all 600ms ease;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 150px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.plx-card.left .pxc-avatar{
+    flex-direction: unset;
+
+    
+   
+   }
+@media screen and (max-width: 700px) {
+  .pxc-avatar {
+    width: 100%;
+    /* height: 100px; */
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: -60px;
+  }
+  
+
+}
+
+.pxc-avatar .icon-ed {
+  transition: all 600ms ease;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: var(--text_color);
+  box-shadow: 0 1px 1rem rgba(10, 10, 25, 0.5);
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto; */
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pxc-avatar .icon-ed i{
+    font-size: clamp(25px, 4vw, 40px);
+    color: var(--body_color);
+}
+@media screen and (max-width: 900px) {
+  .pxc-avatar .icon-ed {
+    width: 125px;
+    height: 125px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pxc-avatar .icon-ed {
+    /* margin-top: 100px; */
+  }
+}
+
+.pxc-bg {
+  transition: all 600ms ease;
+  border-radius: 2px;
+  height: 100%;
+  width: calc(100% - 75px);
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  left: 75px;
+  background-size: cover;
+  background-position: right;
+  background-color: #2b2b95;
+}
+.plx-card.left .pxc-bg{
+    left:0;
+    right: 75px;
+    
+   
+   }
+
+@media screen and (max-width: 900px) {
+  .pxc-bg {
+    right: 0;
+  }
+  .plx-card.left .pxc-bg{
+   left:0;
+   /* right: 50px; */
+  
+  }
+}
+@media screen and (max-width: 700px) {
+  .pxc-bg {
+    left: 0;
+    top: 0;
+    /* height: 200px; */
+    width: 100%;
+    border-radius: 0;
+  }
+  .plx-card.left .pxc-bg{
+    left: 0;
+    top: 0;
+    /* height: 200px; */
+    width: 100%;
+    border-radius: 0;
+    
+   
+   }
+ 
+}
+.plx-card.left .pxc-subcard{
+  margin: 25px -25px 25px 20%;
+  padding: 15px 40px 15px 25px;
+
+}
+.pxc-subcard {
+  transition: all 600ms ease;
+  border-radius: 3px;
+  background: var(--body_background);
+  width: 650px;
+  margin: 25px 20% 25px -25px;
+  z-index: 0;
+  padding: 15px 25px 15px 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+  box-shadow: 0 1px 1rem rgba(10, 10, 25, 0.3);
+}
+
+
+@media screen and (max-width: 900px) {
+  .pxc-subcard {
+    margin-right: 15px;
+    margin-left: -32px;
+    width: 100%;
+  }
+  .plx-card.left .pxc-subcard{
+    margin-left: 15px;
+    margin-right: -32px;
+    /* width: 100%; */
+  
+  }
+
+}
+@media screen and (max-width: 700px) {
+  .pxc-subcard {
+    margin: 26px 15px 60px 15px;
+    padding: 70px 25px 20px;
+    width: auto;
+    height: auto;
+    flex: 1 0 auto;
+  }
+  .plx-card.left .pxc-subcard{
+    margin: 26px 15px 60px 15px;
+    padding: 70px 25px 20px;
+  
+  }
+  .plx-card.left .university,.plx-card.left .college-name,.plx-card.left .college-address{
+    text-align: unset !important;
+}
+
+}
+.plx-card.left .university,.plx-card.left .college-name,.plx-card.left .college-address{
+    text-align: end;
+}
+.sachin-edcard-1 .university{
+    font: normal normal 600 30px / 35px var(--font-family);
+    font-size: clamp(16px, 4vw, 30px);
+    line-height: clamp(16px, 4vw, 30px);
+    color: var(--body_color);
+    margin-bottom: 10px;
+}
+.sachin-edcard-1 .college-name{
+    font: normal normal 400 20px / 25px var(--font-family);
+    font-size: clamp(11px, 4vw, 20px);
+    line-height: clamp(11px, 4vw, 20px);
+    color: var(--body_color);
+    margin-bottom: 20px;
+
+}
+
+.sachin-edcard-1 .college-address{
+    font: normal normal 400 18px / 18px var(--font-family);
+    font-size: clamp(10px, 4vw, 18px);
+    line-height: clamp(10px, 4vw, 18px);
+    color: var(--body_color);
+    margin-bottom: 5px;
+
+}
+.sachin-edcard-1 .pass-out-year{
+    flex-shrink: 1;
+    flex-basis: 100px;
+    flex-grow: 1;
+    font: normal normal 400 18px / 18px var(--font-family);
+    font-size: clamp(10px, 4vw, 18px);
+    line-height: clamp(10px, 4vw, 18px);
+    color: var(--body_color);
+
+}
+.sachin-edcard-1 .year-perc-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sachin-edcard-1 .college-address i,.sachin-edcard-1 .pass-out-year i{
+    color: var(--text_color);
+}
+.sachin-edcard-1 .persentage{
+    flex-shrink: 1;
+    flex-basis: 100px;
+    flex-grow: 1;
+
+    font: normal normal 500 20px / 25px var(--font-family);
+    font-size: clamp(12px, 4vw, 20px);
+    line-height: clamp(15px, 4vw, 25px);
+    color: var(--body_color);
+    background-color: var(--text_color);
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    border-radius: 5rem;
+    padding: 5px 10px 5px 10px ;
+    margin: auto;
+}
+.pxc-stopper {
+  transition: all 600ms ease;
+  height: 100%;
+  width:100%;
+  background: rgba(var(--rgb_text_color), 0.3);
+  display: block;
+  position: absolute;
+  z-index: 0;
+}
+
+
+
+
+
+
+

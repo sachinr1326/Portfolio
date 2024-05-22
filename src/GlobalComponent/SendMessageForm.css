@@ -1,0 +1,105 @@
+
+.sachin-send-message-form  .section-1 .title {
+    font: normal normal 800 45px / 45px var(--font-family);
+    font-size: clamp(25px, 4vw, 45px);
+    line-height: clamp(25px, 4vw, 45px);
+    color: var(--body_color);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+   text-align: center;
+   animation: waviy 1s infinite;
+   animation-delay: calc(.1s * var(--i));
+}
+@keyframes waviy {
+   0%,40%,100% {
+     transform: translateY(0)
+   }
+   20% {
+     transform: translateY(-20px)
+   }
+ }
+
+ .sachin-send-message-form  .section-1 .title::before {
+  top: 0;
+  content: " ";
+  left: -25%;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  z-index: -1;
+    width: 0px;
+    height: 0px;
+    border-right: 2vw solid transparent;
+    border-top: 2vw solid var(--text_color);
+    border-left: 2vw solid var(--text_color);
+    border-bottom: 2vw solid var(--text_color);
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+  
+}
+@media screen and (max-width:767px) {
+  .sachin-send-message-form  .section-1 .title::before {
+    border-right: 3vw solid transparent;
+    border-top: 3vw solid var(--text_color);
+    border-left: 3vw solid var(--text_color);
+    border-bottom: 3vw solid var(--text_color);
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+
+  
+  }
+}
+
+.sachin-send-message-form  .section-1 .title .color-text{
+  color: var(--text_color);
+}
+.sachin-send-message-form  .section-1 .form-control{
+    border-color: var(--text_color);
+    background-color: var(--body_background);
+    min-height: 60px;
+    font: normal normal 500 20px / 35px var(--font-family);
+    font-size: clamp(20px, 4vw, 20px);
+    line-height: clamp(20px, 4vw, 20px);
+    color: var(--body_color);
+}
+.sachin-send-message-form  .section-1 .form-control::placeholder{
+    font: normal normal 500 20px / 35px var(--font-family);
+    font-size: clamp(20px, 4vw, 20px);
+    line-height: clamp(20px, 4vw, 20px);
+    color: var(--body_color);
+    opacity: 0.3;
+}
+.sachin-send-message-form  .section-1 .form-control:focus{
+    box-shadow: var(--section_color2) 0px 5px 10px 0px;
+}
+.sachin-send-message-form  .section-1 .send-msg-btn{
+    font: normal normal 400 18px / 35px var(--font-family);
+    font-size: clamp(10px, 4vw, 18px);
+    line-height: clamp(10px, 4vw, 18px);
+    color: var(--text_color);
+    border-color: var(--text_color);
+    border-radius: 5rem;
+    background-color: var(--body_background);
+    padding: 0 10% 0 10%;
+    min-height: 60px;
+    margin: auto;
+    /* border: 1px solid var(--text_color); */
+
+}
+.sachin-send-message-form  .section-1 .send-msg-btn:not([disabled]):hover{
+    background-color: var(--text_color);
+    color: var(--body_color);
+    box-shadow: rgba(var(--rgb_text_color), 0.3) 0px 4px 16px, rgba(var(--rgb_text_color), 0.3) 0px 8px 24px, rgba(var(--rgb_text_color), 0.3) 0px 16px 56px;
+
+}
+.sachin-send-message-form  .section-1 .send-msg-btn:not([disabled]):focus{
+    background-color: var(--text_color);
+    color: var(--body_color);
+
+}

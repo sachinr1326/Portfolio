@@ -1,0 +1,100 @@
+
+:root {
+    --surface-color: var(--text_color);
+    --curve: 40;
+  }
+
+  .sachin-card-2 .card-sachin {
+    position: relative;
+    display: block;
+    min-height: 300px;  
+    border:1px solid var(--text_color);
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    background-color: var(--body_background);
+    text-align: center;
+
+  }
+  
+  .sachin-card-2 .card__image {      
+  width: min(100% - 15px, 180px);
+    height:min(100% - 15px, 180px); 
+border-radius: 100%;
+margin-top: 10px;
+    object-fit: cover;
+    aspect-ratio: 3/3;
+    transition: 0.3s all ease-in-out;
+  }
+  .sachin-card-2 .card-sachin:hover .card__image {
+    width: min(100% - 15px, 220px);
+    height:min(100% - 15px, 220px); 
+  }
+  
+  .sachin-card-2 .card__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;      
+    border-top-left-radius: calc(var(--curve) * 1px);    
+    border-top-right-radius: calc(var(--curve) * 1px);    
+    background-color:rgba(var(--rgb_text_color),0.6);      
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .sachin-card-2 .card-sachin:hover .card__overlay {
+    transform: translateY(0);
+  }
+  
+  .sachin-card-2 .card__header {
+    position: relative;
+    padding: 2em;
+    border-top-left-radius: calc(var(--curve) * 1px);    
+    border-top-right-radius: calc(var(--curve) * 1px); 
+    background-color:rgba(var(--rgb_text_color),0.6);
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+  }
+  
+  .sachin-card-2 .card__arc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;      
+    z-index: 1;
+  }
+  
+     
+  
+  .sachin-card-2 .card-sachin:hover .card__header {
+    transform: translateY(0);
+  }
+  
+
+  .sachin-card-2 .card__title {
+    font: normal normal 600 20px / 20px var(--font-family);
+    font-size: clamp(15px, 4vw, 20px);
+    line-height: clamp(15px, 4vw, 20px);
+    color: var(--body_color);
+    text-align: center;
+  }
+  
+
+
+  
+  .sachin-card-2 .card__description {
+    padding: 0 2em 2em;
+    font: normal normal 400 17px / 20px var(--font-family);
+    font-size: clamp(10px, 4vw, 17px);
+    line-height: clamp(10px, 4vw, 20px);
+    color: var(--body_color);
+    margin-bottom: 10px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    
+  }    

@@ -1,0 +1,16 @@
+.modal-custom .change-color{
+    background-color: var(--body_background);
+    border: 1px solid var(--text_color);
+    position: relative;
+}
+.modal-custom .close-btn{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    color: var(--text_color);
+    font-size: clamp(15px, 4vw, 20px);
+    cursor: pointer;
+}
+.modal-custom.modal{
+    background-color:rgba(var(--rgb_text_color), 0.5);
+}

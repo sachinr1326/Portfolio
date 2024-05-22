@@ -1,0 +1,30 @@
+.demo-select-option-edit-close-btn-toast i{
+    font-size: clamp(10px, 4vw, 15px);
+  
+    color: #fff;
+
+}
+
+.custom-style-toast{
+    border-color: var(--text_color);
+    background-color: var(--body_background);
+  position: relative;
+    box-shadow: var(--section_color2) 0px 5px 15px 0px;
+    
+}
+.custom-style-toast .header-toast{
+    background-color: var(--text_color);
+}
+.custom-style-toast .title{
+    font: normal normal 500 15px / 15px var(--font-family);
+    font-size: clamp(10px, 4vw, 15px);
+    line-height: clamp(10px, 4vw, 15px);
+    color: var(--body_color);
+}
+.custom-style-toast .body-text{
+    font: normal normal 400 15px / 15px var(--font-family);
+    font-size: clamp(10px, 4vw, 15px);
+    line-height: clamp(10px, 4vw, 15px);
+    color: var(--body_color);
+    padding: 17px;
+}
