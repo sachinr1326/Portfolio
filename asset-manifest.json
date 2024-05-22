@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0327d752.css",
+    "main.js": "/Portfolio/static/js/main.e6f67bc6.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/project.mp4": "/Portfolio/static/media/project.0366a1fa54bcf601b76e.mp4",
+    "static/media/demo.jpg": "/Portfolio/static/media/demo.cc899a40a86eb9019add.jpg",
+    "static/media/school.jpg": "/Portfolio/static/media/school.67b0560f340d39f1366f.jpg",
+    "static/media/chatbot.gif": "/Portfolio/static/media/chatbot.e84b2a32f5866d7de2ed.gif",
+    "static/media/developer1.png": "/Portfolio/static/media/developer1.7e0b85c11bf3b9b629b1.png",
+    "static/media/Resume_EdCater.pdf": "/Portfolio/static/media/Resume_EdCater.5f190ada56922ee153f0.pdf",
+    "static/media/school2.jpg": "/Portfolio/static/media/school2.9df549b4ab926237c556.jpg",
+    "static/media/college.jpeg": "/Portfolio/static/media/college.bab7dd46b54f2960ebaa.jpeg",
+    "static/media/card2.png": "/Portfolio/static/media/card2.df8d0f657626bdc5ea17.png",
+    "static/media/loading.gif": "/Portfolio/static/media/loading.3f8d1fc5923d7ba80979.gif",
+    "index.html": "/Portfolio/index.html",
+    "main.0327d752.css.map": "/Portfolio/static/css/main.0327d752.css.map",
+    "main.e6f67bc6.js.map": "/Portfolio/static/js/main.e6f67bc6.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0327d752.css",
+    "static/js/main.e6f67bc6.js"
+  ]
+}
