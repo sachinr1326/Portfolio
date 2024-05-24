@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./VideoCard.css";
 
-export default function VideoCard({ result }) {
+export default function VideoCard(props) {
   const [muted, setMuted] = useState(true);
   const [percentagePlayed, setPercentagePlayed] = useState(0);
   const videoRef = useRef(null);
@@ -29,7 +29,7 @@ export default function VideoCard({ result }) {
 
   return (
     <div className="ed-video-container-22">
-      <div className="video-card">
+      <div className="video-card" onClick={()=>props.ShowProjectDetail(props.result)}>
         <div className="padding-card">
           <div className="video-sec">
             <video
@@ -40,7 +40,7 @@ export default function VideoCard({ result }) {
               loop
               playsInline
             >
-              <source src={result.video} type="video/mp4" />
+              <source src={props.result.video} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="mute-unmute" onClick={toggleMute}>
@@ -53,12 +53,12 @@ export default function VideoCard({ result }) {
           </div>
           <div className="content-sec">
             <div className="detail-sec">
-            {result.name && <div className="name">{result.name}</div>}
-{result.company && <div className="company">{result.company}</div>}
-{result.year && <div className="year">{result.year}</div>}
-{result.Tech && <div className="Tech">Tech:-{result.Tech}</div>}
-{result.url && <div className="mb-2"><a href={result.url} className="url" rel="noreferrer"  target="_blank">go to project</a></div>}
-              <div className="designation">{result.description[0].slice(0,100)}...</div>
+            {props.result.name && <div className="name">{props.result.name}</div>}
+{props.result.company && <div className="company">{props.result.company}</div>}
+{props.result.year && <div className="year">{props.result.year}</div>}
+{props.result.Tech && <div className="Tech">Tech:-{props.result.Tech}</div>}
+{props.result.url && <div className="mb-2"><a href={props.result.url} className="url" rel="noreferrer"  target="_blank">go to project</a></div>}
+              <div className="designation">{props.result.description[0].slice(0,100)}...</div>
             </div>
             <div className="countdown-sec">
             <div className="countdown">{Math.round(percentagePlayed)}%</div>

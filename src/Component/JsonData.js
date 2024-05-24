@@ -1,8 +1,15 @@
 import demo from "../image/demo.jpg"
 import project1 from "../image/project.mp4"
+import cryptone from "../image/cryptone.mp4"
+import homingle from "../image/homingle.mp4"
+import edcater from "../image/edcater.mp4"
 import btech from "../image/college.jpeg"
 import school from "../image/school.jpg"
 import school2 from "../image/school2.jpg"
+
+
+
+
 
 export const container2 ={
     title: "What I Do!",
@@ -28,13 +35,13 @@ export const container2 ={
         desc: "Unleash scalable backend systems for seamless data management and robust security. Let's build a backend that powers your ambitions! 💡🚀"
       },
       {   image: demo,
-      title: "Full stack Development",
-      desc: "Be a jack of all trades and create ft intuitive and visually appealing user interfaces and experiences for websites and applic ft intuitive and visually appealing user interfaces and experiences for websites and applic ft intuitive and visually appealing user interfaces and experiences for websites and applic an entire website by yourself or manage teams who do"
+      title: "General Responsibilities",
+      desc: "Manage codebases and collaborate with developers using version control systems like Git. Ensure code quality through unit, integration, and end-to-end testing, and resolve stack-wide issues. Automate testing, building, and deployment with CI/CD pipelines. Use project management tools such as JIRA, Trello, or Asana to oversee tasks and timelines, collaborating with designers and product managers. Implement user authentication and maintain data security compliance."
     },
     {
       image: demo,
-      title: "Mobile App Development",
-      desc: "Design and develop applications for mobile devices, ranging from smartphones to tablets"
+      title: "Landing Page Creation",
+      desc: "Design visually appealing landing pages that capture user attention and drive conversions using tools like Adobe XD, Sketch, or Figma. Implement content management systems (CMS) like WordPress for dynamic content. Optimize pages for search engines with meta tags, keywords, and best SEO practices, ensuring they load quickly by optimizing images, minifying CSS/JS, and leveraging browser caching"
     }
  
     ]
@@ -150,7 +157,7 @@ export const container2 ={
         "Facilitated social sharing capabilities, enabling users to share achievements and experiences on LinkedIn.",
         "Implemented dynamic certificate name changes, providing personalized experiences for users.",
         "Demonstrated a proactive approach to time-sensitive tasks, ensuring timely completion of projects and updates."],
-        video: project1,
+        video: edcater,
       },
       {
         name: "Homingle - Android App (Live)",
@@ -167,7 +174,7 @@ export const container2 ={
 "Continuously iterated on the app to deliver a user-centric platform, resulting in meaningful connections and positive feedback.",
 "Successfully integrated Razorpay for secure and efficient in-app transactions, streamlining payment processes.",
 "Incorporated Google Ads and Unity Ads within the app, optimizing monetization strategies while ensuring a seamless user experience."],
-        video: project1,
+        video: homingle,
       },
       {
         name: "Cryptone.in - An ecommerce drone selling website (Live)",
@@ -182,7 +189,7 @@ export const container2 ={
         "Collaborated closely with cross-functional teams, including designers and stakeholders, to ensure alignment with project objectives and deliver a cohesive user experience.",
         "Developed responsive web design, optimizing the website for various devices, browsers, and screen sizes, enhancing accessibility and user engagement.",
         "Conducted rigorous testing and debugging to identify and resolve issues promptly, ensuring a smooth and error-free browsing and purchasing experience for customers."],
-        video: project1,
+        video: cryptone,
       },
       {
         name: "One Trust Services-Web Application",
@@ -241,4 +248,54 @@ export const container2 ={
   export const container6 ={
     title: "Contact",
     color_title:"Me"
+  }
+
+  export const container7 ={
+    title: "My Experience",
+      "experience": [
+        {
+          "designation": "Software Engineer",
+          "company": "EdCater Pvt Ltd",
+          "experience": "October 2023 to Present",
+          "location": "ABC tower- 4, Sector 135, Noida, Uttar Pradesh",
+          "description": [
+            "As a Software Engineer at EdCater, spearheaded the development of EdCater's website using React JS and Django, focusing on enhancing user experience and functionality.",
+            "Collaborated with cross-functional teams to gather requirements, design solutions, and implement features that align with business objectives.",
+            "Actively participated in code reviews, providing constructive feedback to team members and fostering a culture of continuous improvement.",
+            "Contributed to the overall success of the team by effectively communicating ideas, collaborating on projects, and supporting team members as needed.",
+            "Implemented new features and optimized existing ones to improve the website's performance and scalability.",
+            "Troubleshot and resolved complex technical issues, ensuring minimal downtime and optimal user experience."
+          ]
+        },
+        {
+          "designation": "Software Engineer",
+          "company": "JVC Solutions",
+          "experience": "August 2023 to Present",
+          "location": "Faridabad, Haryana",
+          "description": [
+            "As a Software Engineer at JVC Solutions, my primary responsibilities revolve around the development of Tally software and customized software products.",
+            "I actively contribute to the company's success by leveraging my technical expertise in software development and my problem-solving skills.",
+            "I collaborate closely with cross-functional teams to ensure seamless software implementation and optimal performance.",
+            "Developed and maintained various software modules, ensuring their compatibility with existing systems.",
+            "Participated in regular team meetings and provided updates on project progress, ensuring transparency and alignment with project goals.",
+            "Conducted training sessions for junior developers, sharing knowledge and best practices to enhance the team's overall capabilities."
+          ]
+        },
+        {
+          "designation": "Software Developer - Intern",
+          "company": "TerraCIS Technologies Ltd",
+          "experience": "August 2022 to August 2022",
+          "location": "Raipur, India",
+          "description": [
+            "Developed Naya Raipur Smart City Project using Java programming language.",
+            "Completed testing and reported bugs by creating detailed test cases and reporting bugs early in the SDLC, resulting in a software bug count reduced by 25% and increasing product efficiency by 40%.",
+            "Developed an innovative user interface that increased satisfaction by 50% of end-users.",
+            "Assisted in the design and implementation of database schemas to support application development.",
+            "Collaborated with senior developers to learn industry best practices and improve coding skills.",
+            "Contributed to the documentation of project requirements and specifications, ensuring clear communication with stakeholders."
+          ]
+        }
+      ]
+  
+    
   }

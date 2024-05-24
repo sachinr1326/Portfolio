@@ -7,6 +7,7 @@
   margin: auto;
   min-height: 450px;
   position: relative;
+  cursor: pointer;
 }
 
 .ed-video-container-22 .video-card .padding-card {

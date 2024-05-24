@@ -2,12 +2,60 @@
     width: min(100% - 15px, 1224px);
     margin-inline: auto;
     padding: 10% 0 5% 0;
+    
 }
 .sachin-container-1 .section-1{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+.sachin-container-1 {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--body_background);
+}
+
+
+.sachin-container-1::before, .sachin-container-1::after {
+    content: "";
+    width: 70vmax;
+    height: 70vmax;
+    position: absolute;
+    background: rgba(var(--rgb_text_color), .1);
+    left: -20vmin;
+    top: -20vmin;
+    animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+    z-index: 1;
+    /* will-change: border-radius, transform; */
+    transform-origin: 55% 55%;
+    pointer-events: none;
+}
+.sachin-container-1::after{
+    width: 70vmin;
+    height: 70vmin;
+    left: auto;
+    right: -10vmin;
+    top: auto;
+    bottom: 0;
+    animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
+    transform-origin: 20% 20%;
+
+}
+@keyframes morph {
+    0% {
+        border-radius: 40% 60% 60% 40% / 70% 30%;
+    }
+    
+    100% {
+        border-radius: 40% 60%;
+    }
+}
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
 .sachin-container-1 .section-1 .address-detail-sec{
     display: flex;
     align-items: flex-start;
@@ -40,12 +88,37 @@
     height:min(100% - 15px, 400px); */
     background-color:rgb(0, 0, 0,0.5);
     border-radius: 50%;
-    border: none;
+    /* border: 5px solid var(--body_color); */
+
     overflow: hidden;
     /* box-shadow: 5px 5px 40px 6px var(--section_color2); */
     box-shadow: var(--section_color2) 0px 5px 15px 0px;
     margin-bottom: 20px;
+    position: relative;
+    
 }
+.sachin-container-1 .section-1 .img-sec-1::before {
+    top: 0;
+    content: " ";
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 77;
+    border: 10px solid var(--section_color);
+    display: inline-block;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: var(--section_color);
+    animation: mymove 5s infinite;
+    
+  }
+  @keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
 .sachin-container-1 .section-1 .img-sec-1 .img-back{
     position: absolute;
    width: 100%;
@@ -117,7 +190,7 @@
     font: normal normal 400 25px/30px var(--font-family);
     color: var(--body_color);
     font-size: clamp(13px, 4vw, 25px);
-    line-height: clamp(16px, 4vw, 30px);
+    line-height: clamp(20px, 4vw, 30px);
     margin-bottom: 2%;
 
   }

@@ -1,0 +1,31 @@
+.sachin-project-detail .video-sec .video-tag{
+    width: 100%;
+}
+.sachin-project-detail .detail-sec .name {
+    font: normal normal 500 20px / 25px var(--font-family);
+    font-size: clamp(15px, 4vw, 20px);
+    line-height: clamp(15px, 4vw, 25px);
+    color: var(--text_color);
+    margin-bottom: 10px;
+  }
+  .sachin-project-detail .detail-sec .company,
+  .sachin-project-detail .detail-sec .year,
+  .sachin-project-detail .detail-sec .url,
+  .sachin-project-detail .detail-sec .Tech {
+    font: normal normal 400 15px / 15px var(--font-family);
+    font-size: clamp(10px, 4vw, 13px);
+    line-height: clamp(10px, 4vw, 13px);
+    color: var(--body_color);
+    margin-bottom: 5px;
+  }
+  .sachin-project-detail .detail-sec .url{
+      color: var(--text_color);
+      margin-bottom: 10px;
+  }
+  
+  .sachin-project-detail .detail-sec .designation {
+    font: normal normal 400 14px / 20px var(--font-family);
+    font-size: clamp(10px, 4vw, 14px);
+    line-height: clamp(15px, 4vw, 20px);
+    color: var(--body_color);
+  }

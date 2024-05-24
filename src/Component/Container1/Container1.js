@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from "../../image/Resume_EdCater.pdf"
+import resume from "../../image/Resume_24_05.pdf"
 import developer1 from "../../image/developer1.png"
 import "./Container1.css"
 import HireMe from '../../GlobalComponent/HireMe';
@@ -17,6 +17,7 @@ function Container1() {
       };
   return (
     <section className='sachin-container-1' id='Profile'>
+      <div className='animation-card'></div>
         <HireMe
         show={modalShow}
         onHide={() => setModalShow(false)}

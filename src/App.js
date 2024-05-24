@@ -8,6 +8,7 @@ import Header from './GlobalComponent/Header';
 import SplashScreen from './GlobalComponent/SplashScreen';
 import { ToastProvider } from './GlobalComponent/ToastContext';
 import Chatbot from './GlobalComponent/Chatbot';
+import Container7 from './Component/Container7/Container7';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   document.querySelector("body").setAttribute("data-theme","theme1");
@@ -19,6 +20,7 @@ function App() {
        <Header/>
      <SplashScreen/>
      <Container1/>
+    <Container7/>
     <Container2/> 
     <Container3/>
     <Container4/>

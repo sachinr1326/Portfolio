@@ -3,7 +3,7 @@ import "./Chatbot.css";
 import typingloader from "../image/loading.gif";
 import chatbotlogo from "../image/chatbot.gif";
 import EdCoo_Pink_BB from "../image/chatbot.gif";
-import resume from "../image/Resume_EdCater.pdf";
+import resume from "../image/Resume_24_05.pdf";
 import { useToast } from "./ToastContext";
 
 const UserMessage = ({ text, time, shouldFade }) => (

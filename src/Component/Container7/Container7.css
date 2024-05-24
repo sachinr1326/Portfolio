@@ -1,0 +1,170 @@
+.sachin-container-7 .sachin-common-container {
+    width: min(100% - 15px, 1224px);
+    margin-inline: auto;
+}
+
+.sachin-container-7 {
+  background: var(--body_background);
+
+}
+
+.sachin-container-7 .sachin-container-main-7 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
+.sachin-container-7 .sachin-container-main-7 .section-1 .title {
+    font: normal normal 800 35px / 35px var(--font-family);
+    font-size: clamp(20px, 4vw, 35px);
+    line-height: clamp(20px, 4vw, 35px);
+    color: var(--body_color);
+    margin-bottom: 2%;
+   text-align: center;
+   animation: waviy 1s infinite;
+   animation-delay: calc(.1s * var(--i));
+   position: relative;
+}
+@keyframes waviy {
+   0%,40%,100% {
+     transform: translateY(0)
+   }
+   20% {
+     transform: translateY(-20px)
+   }
+ }
+ .sachin-container-7 .sachin-container-main-7 .section-1 .title::before {
+  top: -10%;
+  content: " ";
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 3vw solid transparent;
+  border-right: 3vw solid transparent;
+  border-top: 4vw solid var(--text_color);
+  z-index: -1;
+
+}
+
+@media screen and (max-width:767px) {
+  .sachin-container-7 .sachin-container-main-7 .section-1 .title::before {
+    top: -10%;
+    border-left: 6vw solid transparent;
+    border-right: 6vw solid transparent;
+    border-top: 8vw solid var(--text_color);
+
+  
+  }
+}
+.sachin-container-7 .sachin-container-main-7 .section-1 .card-sec-1 .exp-item{
+/* position: relative;
+padding:5px 0 5px 25px;
+margin-left: 20px; */
+position: relative;
+padding: 25px 0 0 0;
+margin-top: 17px;
+
+}
+
+.sachin-container-7 .sachin-container-main-7 .section-1 .card-sec-1 .exp-item:after {
+  background-color: var(--text_color);
+  bottom: 0;
+  content: " ";
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: -28%;
+  width: 3px;
+  height: 80%;
+}
+
+.sachin-container-7 .sachin-container-main-7 .section-1 .card-sec-1 .exp-item .dots-icon{
+width: 50px;
+height: 50px;
+position: absolute;
+left: 0;
+right: 0;
+top: -37px;
+bottom:unset;
+margin: auto;
+background-color: var(--body_background);
+border-radius: 25rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid var(--text_color);
+z-index: 5;
+}
+.sachin-container-7 .sachin-container-main-7 .section-1 .card-sec-1 .exp-item .dots-icon i{
+  color: var(--text_color);
+  font-size: 20px;
+
+
+}
+
+.sachin-container-7 .sachin-container-main-7 .section-1 .card-sec-1 .exp-item .exp-card{
+  background-color: var(--body_background);
+border: 1px solid var(--text_color);
+
+  position: relative;
+  z-index: 3;
+  border-radius: .5rem;
+  padding: 10px;
+}
+
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card  .company-sec{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 10px;
+}
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .company {
+  font: normal normal 500 25px / 25px var(--font-family);
+  font-size: clamp(15px, 4vw, 25px);
+  line-height: clamp(20px, 4vw, 30px);
+  color: var(--text_color);
+}
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .designation{
+  font: normal normal 400 20px / 20px var(--font-family);
+  font-size: clamp(10px, 4vw, 20px);
+  line-height: clamp(15px, 4vw, 25px);
+  color: var(--body_color);
+  margin-bottom: 5px;
+}
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .location,
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .exp {
+  font: normal normal 400 15px / 15px var(--font-family);
+  font-size: clamp(10px, 4vw, 17px);
+  line-height: clamp(15px, 4vw, 20px);
+  color: var(--body_color);
+  margin-bottom: 5px;
+}
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .location i,
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .exp i{
+
+  color: var(--text_color);
+}
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .url{
+    color: var(--text_color);
+    margin-bottom: 10px;
+}
+
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .exp-list li{
+  font: normal normal 400 17px / 20px var(--font-family);
+  font-size: clamp(10px, 4vw, 17px);
+  line-height: clamp(20px, 4vw, 25px);
+  color: var(--body_color);
+}
+
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .exp-list {
+  list-style-type: none;
+}
+.sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .exp-list li::before {
+  content: "👉"; /* Replace with your desired emoji */
+  margin-right: 8px; /* Adjust space between emoji and text */
+}

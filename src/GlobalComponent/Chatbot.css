@@ -184,7 +184,7 @@ color: var(--body_color);
     cursor: pointer;
     padding: 10px;
     opacity: .94;
-    z-index: 2100;
+    z-index: 900;
     box-shadow: rgba(255,255,255, 0.16) 0px 3px 6px, rgba(255,255,255, 0.23) 0px 3px 6px;
 }
 
@@ -266,11 +266,13 @@ color: var(--body_color);
 }
 /* =============open and close animation============= */
 .chatbot-ed-28-03-23 .container-animation-open{
-    display: block;
+    visibility: visible; 
     animation: slide-in 0.5s forwards;
 }
 .chatbot-ed-28-03-23 .container-animation-close{
+    visibility: hidden; 
     animation:slide-out 0.5s .2s forwards;
+    transition: visibility 0.5s;
 }
 .chatbot-ed-28-03-23 .header-animation-open{
     animation: chatBotInc .7s .2s forwards;

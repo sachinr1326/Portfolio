@@ -115,3 +115,20 @@
     background: var(--brand-color);
     box-shadow: 0px 0px 10px 0px var(--text_color);
 }
+.modal-custom-react .change-color{
+  background-color: var(--body_background);
+  border: 1px solid var(--text_color);
+  position: relative;
+}
+.modal-custom-react .close-btn{
+  position: absolute;
+  top:10px;
+  right: 10px;
+  color: var(--text_color);
+  font-size: clamp(15px, 4vw, 20px);
+  cursor: pointer;
+  z-index: 3;
+}
+.modal-custom-react.modal{
+  background-color:rgba(var(--rgb_text_color), 0.5);
+}

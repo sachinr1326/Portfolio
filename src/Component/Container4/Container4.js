@@ -1,11 +1,14 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { register } from "swiper/element/bundle";
 import "./Container4.css"
 import { container4 } from '../JsonData';
 import VideoCard from '../../GlobalComponent/VideoCard';
+import ModalReact from "../../GlobalComponent/ProjectDetails/ProjectDetails"
+import ProjectDetails from '../../GlobalComponent/ProjectDetails/ProjectDetails';
+import { Modal } from 'react-bootstrap';
 function Container4() {
     const swiperRef = useRef(null);
-
+    const [modalShow, setModalShow] = useState(false);
     useEffect(() => {
         // Register Swiper web component
         register();
@@ -32,8 +35,30 @@ function Container4() {
         // initialize swiper
         swiperRef.current.initialize();
     }, []);
+    const [showdata,setShowData]=useState();
+    const ShowProjectDetail =(data)=>{
+        setShowData(data)
+        setModalShow(true)
+    }
     return (
         <section className='ed-internship-main-container-6' id='Projects'>
+       {showdata &&(
+          <Modal
+         show={modalShow}
+         onHide={() => setModalShow(false)}
+      size="lg"
+      className='modal-custom-react'
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Body className='change-color'>
+        <span className='close-btn' onClick={()=>setModalShow(false)} ><i class="fa-solid fa-circle-xmark"></i></span>
+      <ProjectDetails data={showdata} />
+
+      </Modal.Body>
+    
+    </Modal>
+    )}
             <div className="ed-internship-22-container-6 ">
                 <div className="ed-internship-22-common-container">
                     <div className="section-1">
@@ -49,7 +74,7 @@ function Container4() {
                             >
                                 {container4.video_card.map((res, index) => (
                                     <swiper-slide key={index}>
-                                        <VideoCard result={res} />
+                                        <VideoCard result={res} ShowProjectDetail={ShowProjectDetail} />
                                     </swiper-slide>
                                 ))}
                             </swiper-container>
