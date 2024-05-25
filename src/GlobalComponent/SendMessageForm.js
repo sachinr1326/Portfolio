@@ -22,10 +22,6 @@ function SendMessageForm(props) {
   const handleInputChange = (e) => {
     FormInputChange(e, formData, setFormData, errors, setErrors);
   };
-  // Username: "royalsachin2001@gmail.com",
-  //   Password: "A8AFEDAAEF5D18BB70DF5402178675C49A09",
-  //   Host: "smtp.elasticemail.com",
-  //   Port: 2525,
 
 
   const handleSubmit = (e) => {
@@ -37,25 +33,7 @@ function SendMessageForm(props) {
         disable: true,
         text: "please wait...",
       });
-      const config = {
-        SecureToken: "a1abf822-6fe9-4a60-9cad-0385160c494f",   
-        To: "reyanshr1234@gmail.com",
-        From:"royalsachin2001@gmail.com",
-        Subject: formData.subject,
-        Body: `name: ${formData.name}
-               phone: ${formData.phone}
-               email: ${formData.email}
-              ${formData.subject}`,
-      };
-      if(window.Email){
-        window.Email.send(config).then((res)=>{
-          props.onClose();
-          showToast("Success", "Email send successfully");
-        }).catch((errors)=>{
-          showToast("Alert", errors);
-
-        })
-      }
+      console.log(formData);
     } else {
       // toast.info("Verify your mobile number");
       showToast("Info", "All fields are required*");
