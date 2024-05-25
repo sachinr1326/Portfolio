@@ -159,6 +159,7 @@ margin-bottom: 10px;
   font-size: clamp(10px, 4vw, 17px);
   line-height: clamp(20px, 4vw, 25px);
   color: var(--body_color);
+  margin-bottom: 10px;
 }
 
 .sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .exp-list {

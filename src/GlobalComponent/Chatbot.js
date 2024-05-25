@@ -941,7 +941,7 @@ title:[
                 style={{ display: end_chat_msg ? "block" : "none" }}
               >
                 <span>
-                SachBot session complete. Please rate your experience. Your feedback helps us improve.Thank you for chatting with SachBot!"
+                SachBot session complete. Please rate your experience. Your feedback helps us improve.Thank you for chatting with SachBot!
                 </span>
               </div>
               <div className="button_section text-center bg-transparent">

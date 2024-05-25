@@ -50,6 +50,7 @@ export default function VideoCard(props) {
                 <i className="fa-solid fa-volume-high"></i>
               )}
             </div>
+            <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style={{"--value": Math.round(percentagePlayed)}}></div>
           </div>
           <div className="content-sec">
             <div className="detail-sec">
@@ -59,10 +60,6 @@ export default function VideoCard(props) {
 {props.result.Tech && <div className="Tech">Tech:-{props.result.Tech}</div>}
 {props.result.url && <div className="mb-2"><a href={props.result.url} className="url" rel="noreferrer"  target="_blank">go to project</a></div>}
               <div className="designation">{props.result.description[0].slice(0,100)}...</div>
-            </div>
-            <div className="countdown-sec">
-            <div className="countdown">{Math.round(percentagePlayed)}%</div>
-
             </div>
           </div>
         </div>
