@@ -326,7 +326,7 @@ color: var(--body_color);
     padding-top: 10px;
     background-color: var(--body_background);
     border-radius: 9px;
-    ;
+    
 }
 /* Animation */
 @keyframes slide-in {
@@ -467,4 +467,8 @@ color: var(--body_color);
     margin-right: -15px;
     margin-left: -15px;
     margin-top: -11px;
+}
+@media screen and (max-width:767px) {
+
+
 }

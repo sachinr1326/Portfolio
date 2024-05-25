@@ -140,7 +140,7 @@ export const container2 ={
     video_card: [
       {
         name: "EdCater.com- An e-learning platform (Live)",
-        year:"Octuber 2022 - present 2024",
+        year:"October 2022 - present 2024",
         url:"https://edcater.com/",
         Tech:"React JS, MySQL and Django",
         company:"Edcater Pvt Ltd",
@@ -270,7 +270,7 @@ export const container2 ={
         {
           "designation": "Software Engineer",
           "company": "JVC Solutions",
-          "experience": "August 2023 to Present",
+          "experience": "August 2023 to October 2023",
           "location": "Faridabad, Haryana",
           "description": [
             "As a Software Engineer at JVC Solutions, my primary responsibilities revolve around the development of Tally software and customized software products.",

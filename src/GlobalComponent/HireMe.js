@@ -13,7 +13,7 @@ function HireMe(props) {
     >
       <Modal.Body className='change-color'>
         <span className='close-btn' onClick={props.onClose} ><i class="fa-solid fa-circle-xmark"></i></span>
-       <SendMessageForm title={"Hire"} color_title={"Me"}/>
+       <SendMessageForm title={"Hire"} color_title={"Me"} onClose={props.onClose}/>
       </Modal.Body>
     
     </Modal>
