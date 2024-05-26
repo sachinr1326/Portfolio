@@ -50,7 +50,7 @@ export default function VideoCard(props) {
                 <i className="fa-solid fa-volume-high"></i>
               )}
             </div>
-            <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style={{"--value": Math.round(percentagePlayed)}}></div>
+            <div role="progressbar"  aria-valuemin="0" aria-valuemax="100" style={{"--value": Math.round(percentagePlayed)}}></div>
           </div>
           <div className="content-sec">
             <div className="detail-sec">
