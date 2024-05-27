@@ -20,7 +20,13 @@ function ProjectDetails(props) {
 {props.data.year && <div className="year">{props.data.year}</div>}
 {props.data.Tech && <div className="Tech">Tech:-{props.data.Tech}</div>}
 {props.data.url && <div className="mb-2"><a href={props.data.url} className="url" rel="noreferrer"  target="_blank">go to project</a></div>}
-              <div className="designation">{props.data.description}</div>
+              <ul className="designation">
+  {props.data.description.map((res,index)=>(
+<li key={index}>{res}</li>
+
+  ))}
+
+  </ul>
             </div>
     </div>
   )

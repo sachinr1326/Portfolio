@@ -140,7 +140,7 @@ export const container2 ={
     video_card: [
       {
         name: "EdCater.com- An e-learning platform (Live)",
-        year:"October 2022 - present 2024",
+        year:"October 2023 - present",
         url:"https://edcater.com/",
         Tech:"React JS, MySQL and Django",
         company:"Edcater Pvt Ltd",

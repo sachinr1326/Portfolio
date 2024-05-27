@@ -100,7 +100,7 @@ border: 1px solid var(--text_color);
 z-index: 5;
 }
 .sachin-container-7 .sachin-container-main-7 .section-1 .card-sec-1 .exp-item .dots-icon i{
-  color: var(--text_color);
+  color: var(--body_color);
   font-size: 20px;
 
 
