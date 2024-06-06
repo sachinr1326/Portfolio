@@ -56,7 +56,7 @@ Noida, Uttar pradesh, India
               wrapper="span"
               className="color-text"
               speed={5}
-              repeat={0}
+              repeat={Infinity}
             />
             </div>
             <div className='about'>Highly motivated software developer with experience in React JS, Python, and JavaScript, proven ability to quickly learn and apply new technologies. Seeking to leverage skills and knowledge to secure an entry-level software developer role, actively contributing to the growth and success of the organization. Looking to kickstart my career in a dynamic and collaborative environment, where I can contribute my strong programming abilities and passion for problem-solving. Seeking a challenging position to utilize my technical skills and knowledge in developing software solutions.</div>

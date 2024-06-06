@@ -42,7 +42,7 @@ function Header() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
-        {['Profile', 'Services', 'Skills', 'Projects', 'Education', 'Contact Us'].map((item) => (
+        {['Profile','Experience', 'Services', 'Skills', 'Projects', 'Education', 'Contact Us'].map((item) => (
                 <li className="nav-item" key={item}>
                   <a
                     className={`nav-link ${activeItem === item ? 'active' : ''}`}

@@ -139,11 +139,30 @@ export const container2 ={
     title: "Explore My Projects",
     video_card: [
       {
+        name: "EdCater - Android and IOS App (Dev - Phase)",
+        year:"June 2023 - present",
+        url:"https://edcater.com/",
+        Tech:"React Native, MySQL and Django",
+        company:"Edcater Pvt Ltd",
+        status:"Development Phase",
+        description: 
+        ["Developed and maintained a cross-platform mobile application using React Native, ensuring seamless performance on both Android and iOS devices.",
+        "Conducted regular server updates, configurations, and maintenance to ensure optimal performance and security for the mobile app.",
+        "Designed and implemented secure OTP-based authentication processes using Django, enhancing user security.",
+        "Enabled social sharing capabilities within the app, allowing users to share achievements and experiences on LinkedIn",
+        "Designed and implemented Django OTP and email OTP templates for secure authentication processes.",
+        "Implemented advanced filtering features in Django tables for improved data organization and retrieval.",
+        "Demonstrated a proactive approach to time-sensitive tasks, ensuring timely completion of projects and updates."],
+        video: edcater,
+      },
+      {
         name: "EdCater.com- An e-learning platform (Live)",
         year:"October 2023 - present",
         url:"https://edcater.com/",
         Tech:"React JS, MySQL and Django",
         company:"Edcater Pvt Ltd",
+        status:"Live & devlopment",
+
         description: 
         ["Orchestrated seamless integration of Razorpay payment gateway, optimizing checkout processes and ensuring secure transactions for users.",
         "Implemented essential features such as cart functionality, optimizing the e-commerce experience for users.",
@@ -165,6 +184,8 @@ export const container2 ={
         url:"https://play.google.com/store/apps/details?id=com.cryptone.homingle",
         Tech:"Java, Django, Drf ",
         company:"Rozitarang Pvt Ltd ",
+        status:"Live",
+
         description: 
        
 ["Conceptualized and developed Homingle, an Android app utilizing Java and Django, fostering authentic global connections through live audio and video chats.",
@@ -182,6 +203,8 @@ export const container2 ={
         url:"https://cryptone.in/",
         Tech:"Phython, Django and PostgreSQL",
         company:"Rozitarang Pvt Ltd ",
+        status:"Live",
+
         description: 
         ["Successfully led the end-to-end development of the Cryptone.in website, adhering to industry best practices and delivering a user-friendly and visually appealing interface.",
         "Implemented a secure and robust wallet management system, allowing users to store, manage, and transact with cryptocurrencies securely.",
@@ -194,8 +217,10 @@ export const container2 ={
       {
         name: "One Trust Services-Web Application",
         year:"August 2022 - December 2022",
-        Tech:"Java, Servley, Hibernate and MySQL",
+        Tech:"Java, Servlet, Hibernate and MySQL",
         company:"College Project",
+        status:"Local & College project",
+
         description: 
         [
           "Developed a website using Java, JSP, Hibernate, Servlet, MySQL, HTML, CSS, JS, and Bootstrap that is responsive, secure, and user-friendly. Leveraged a combination of robust backend technologies and modern frontend frameworks to create a seamless browsing experience.",

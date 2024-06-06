@@ -30,8 +30,12 @@ export default function VideoCard(props) {
   return (
     <div className="ed-video-container-22">
       <div className="video-card" onClick={()=>props.ShowProjectDetail(props.result)}>
+        
         <div className="padding-card">
           <div className="video-sec">
+          <div className="status-of-project">
+          {props.result.status}
+        </div>
             <video
               ref={videoRef}
               className="video-tag"

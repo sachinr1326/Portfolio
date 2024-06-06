@@ -126,7 +126,7 @@ margin-bottom: 10px;
 .sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .company {
   font: normal normal 500 25px / 25px var(--font-family);
   font-size: clamp(15px, 4vw, 25px);
-  line-height: clamp(20px, 4vw, 30px);
+  line-height: clamp(25px, 4vw, 30px);
   color: var(--text_color);
 }
 .sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .designation{
@@ -140,7 +140,7 @@ margin-bottom: 10px;
 .sachin-container-7 .sachin-container-main-7 .section-1 .exp-card .exp {
   font: normal normal 400 15px / 15px var(--font-family);
   font-size: clamp(10px, 4vw, 17px);
-  line-height: clamp(15px, 4vw, 20px);
+  line-height: clamp(20px, 4vw, 20px);
   color: var(--body_color);
   margin-bottom: 5px;
 }
