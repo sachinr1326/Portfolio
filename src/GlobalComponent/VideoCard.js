@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./VideoCard.css";
+import { useToast } from "./ToastContext";
 
 export default function VideoCard(props) {
+  const { showToast } = useToast();
   const [muted, setMuted] = useState(true);
   const [percentagePlayed, setPercentagePlayed] = useState(0);
   const videoRef = useRef(null);
@@ -26,7 +28,9 @@ export default function VideoCard(props) {
       video.removeEventListener("timeupdate", updatePercentagePlayed);
     };
   }, []);
-
+const handleUrl=(text)=>{
+  showToast("Info", text);
+}
   return (
     <div className="ed-video-container-22">
       <div className="video-card" onClick={()=>props.ShowProjectDetail(props.result)}>
@@ -62,7 +66,15 @@ export default function VideoCard(props) {
 {props.result.company && <div className="company">{props.result.company}</div>}
 {props.result.year && <div className="year">{props.result.year}</div>}
 {props.result.Tech && <div className="Tech">Tech:-{props.result.Tech}</div>}
-{props.result.url && <div className="mb-2"><a href={props.result.url} className="url" rel="noreferrer"  target="_blank">go to project</a></div>}
+{props.result.url && <div className="mb-2">
+{props.result.url.length > 1?(
+  <a onClick={()=>handleUrl(props.result.url[1])} className="url" rel="noreferrer"  target="_blank">go to project</a>
+
+):(
+  <a href={props.result.url} className="url" rel="noreferrer"  target="_blank">go to project</a>
+
+  )}
+</div>}
               <div className="designation">{props.result.description[0].slice(0,100)}...</div>
             </div>
           </div>

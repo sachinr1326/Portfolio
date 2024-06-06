@@ -141,7 +141,7 @@ export const container2 ={
       {
         name: "EdCater - Android and IOS App (Dev - Phase)",
         year:"June 2023 - present",
-        url:"https://edcater.com/",
+        url:["https://edcater.com/","This project is currently under development.I will update the link after the project is deployed."],
         Tech:"React Native, MySQL and Django",
         company:"Edcater Pvt Ltd",
         status:"Development Phase",
@@ -158,10 +158,10 @@ export const container2 ={
       {
         name: "EdCater.com- An e-learning platform (Live)",
         year:"October 2023 - present",
-        url:"https://edcater.com/",
+        url:["https://edcater.com/"],
         Tech:"React JS, MySQL and Django",
         company:"Edcater Pvt Ltd",
-        status:"Live & devlopment",
+        status:"Live & development",
 
         description: 
         ["Orchestrated seamless integration of Razorpay payment gateway, optimizing checkout processes and ensuring secure transactions for users.",
@@ -181,7 +181,7 @@ export const container2 ={
       {
         name: "Homingle - Android App (Live)",
         year:"December 2023 – January 2024",
-        url:"https://play.google.com/store/apps/details?id=com.cryptone.homingle",
+        url:["https://play.google.com/store/apps/details?id=com.cryptone.homingle"],
         Tech:"Java, Django, Drf ",
         company:"Rozitarang Pvt Ltd ",
         status:"Live",
@@ -200,7 +200,7 @@ export const container2 ={
       {
         name: "Cryptone.in - An ecommerce drone selling website (Live)",
         year:"January 2023 - May 2023",
-        url:"https://cryptone.in/",
+        url:["https://cryptone.in/"],
         Tech:"Phython, Django and PostgreSQL",
         company:"Rozitarang Pvt Ltd ",
         status:"Live",
@@ -220,6 +220,7 @@ export const container2 ={
         Tech:"Java, Servlet, Hibernate and MySQL",
         company:"College Project",
         status:"Local & College project",
+        url:["College Project","This project is a college project and will not be deployed live. If you want to see it, please contact me."],
 
         description: 
         [

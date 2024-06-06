@@ -493,13 +493,21 @@ function Chatbot({ tagname }) {
       ],
     },
 "List of Sachin Projects":{
-    title:["These are some project listed","EdCater.com- An e-learning platform (Live)","Homingle - Android App (Live)","Cryptone.in - An ecommerce drone selling website (Live)","One Trust Services-Web Application","Select project for More details"],
-    options:["EdCater.com- An e-learning platform (Live)","Homingle - Android App (Live)","Cryptone.in - An ecommerce drone selling website (Live)","One Trust Services-Web Application","Show Details of All Projects"]
+    title:["These are some project listed","EdCater - Android and IOS App (Dev - Phase)","EdCater.com- An e-learning platform (Live)","Homingle - Android App (Live)","Cryptone.in - An ecommerce drone selling website (Live)","One Trust Services-Web Application","Select project for More details"],
+    options:["EdCater - Android and IOS App (Dev - Phase)","EdCater.com- An e-learning platform (Live)","Homingle - Android App (Live)","Cryptone.in - An ecommerce drone selling website (Live)","One Trust Services-Web Application","Show Details of All Projects"]
+},
+"EdCater - Android and IOS App (Dev - Phase)":{
+  title:[
+    "Project name:- EdCater - Android and IOS App (Dev - Phase)",
+    "complted time:- June 2023 - present",
+    "Technologies:- React Native, MySQL and Django",
+    "company name:- Edcater Pvt Ltd",
+    ],
 },
 "EdCater.com- An e-learning platform (Live)":{
     title:[
     "Project name:- EdCater.com- An e-learning platform (Live)",
-    "complted time:- Octuber 2022 - present 2024",
+    "complted time:- Octuber 2022 - present",
     "Technologies:- React JS, MySQL and Django",
     "company name:- Edcater Pvt Ltd",
     ],
@@ -547,7 +555,8 @@ function Chatbot({ tagname }) {
 },
 "Show Details of All Projects":{
 title:[
-    "Project name:- EdCater.com- An e-learning platform (Live)<br>completed time:- Octuber 2022 - present 2024<br>Technologies:- React JS MySQL and Django<br>company name:- Edcater Pvt Ltd",
+    "Project name:-EdCater - Android and IOS App (Dev - Phase)<br>completed time:- June 2023 - present<br>Technologies:- React Native, MySQL and Django<br>company name:- Edcater Pvt Ltd",
+    "Project name:- EdCater.com- An e-learning platform (Live)<br>completed time:- Octuber 2022 - present<br>Technologies:- React JS MySQL and Django<br>company name:- Edcater Pvt Ltd",
     "Project name:- Homingle - Android App (Live)<br> completed time:- December 2023 – January 2024<br> Technologies:- Java Django Drf and PostgreSQL<br>company name:- Rozitarang Pvt Ltd",
     "Project name:- Cryptone.in - An ecommerce drone selling website (Live)<br> completed time:- January 2023 - May 2023<br> Technologies:- Phython Django and PostgreSQL<br>company name:- Rozitarang Pvt Ltd",
     "Project name:- One Trust Services-Web Application<br> completed time:- August 2022 - December 2022<br> Technologies:- Java Servley Hibernate and MySQL<br> company name:- College Project",

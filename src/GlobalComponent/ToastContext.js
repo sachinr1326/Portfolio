@@ -26,10 +26,10 @@ export const ToastProvider = ({ children }) => {
       {children}
       <div
     // aria-live="polite"
-    // aria-atomic="true"
-    style={{ position: "fixed", top: "10%", right: "10px",width:"100%" }}
+    // aria-atomic="true";
+    style={{ position: "fixed", top: "10%", right: "10px",width:"100%",zIndex:1100 }}
   >
-    <ToastContainer position="top-end" className="p-3" style={{ zIndex: 1 }}>
+    <ToastContainer position="top-end" className="p-3" >
         {toasts.map(toast => (
           <ToastMessage
             key={toast.id}
