@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./SplashScreen.css";
 import { TypeAnimation } from "react-type-animation";
+import ParticleNetwork from "./ParticleNetwork";
 function SplashScreen(props) {
   const [showFirst, setShowFirst] = useState(false);
   const [showSecond, setShowSecond] = useState(false);
@@ -27,9 +28,10 @@ function SplashScreen(props) {
   };
   return (
     <div className={`sachin-splash-screen-container  ${closesplash?"hide":""}`} >
-      <div class="circle-1"></div>
+      {/* <div class="circle-1"></div>
       <div class="circle-2"></div>
-      <div class="circle-3"></div>
+      <div class="circle-3"></div> */}
+      <ParticleNetwork/>
       <div className="spl-container-1">
         {/* <div className="ed-net-img-20-sec-4"></div> */}
         <span className="name-head">

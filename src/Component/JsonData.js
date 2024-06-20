@@ -140,7 +140,7 @@ export const container2 ={
     video_card: [
       {
         name: "EdCater - Android and IOS App (Dev - Phase)",
-        year:"June 2023 - present",
+        year:"June 2024 - present",
         url:["https://edcater.com/","This project is currently under development.I will update the link after the project is deployed."],
         Tech:"React Native, MySQL and Django",
         company:"Edcater Pvt Ltd",
